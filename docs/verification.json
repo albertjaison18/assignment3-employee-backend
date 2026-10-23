@@ -1,0 +1,19 @@
+{
+  "database": "employee_app_assignment3",
+  "passed": 12,
+  "checks": [
+    "GET list is a JSON array from Atlas",
+    "POST creates and returns an Atlas employee",
+    "GET one returns the created employee",
+    "GET list contains the created employee",
+    "PUT matches frontend body _id contract",
+    "PUT by path id also works",
+    "Invalid employee values return 400",
+    "Invalid ids and malformed JSON return 400",
+    "Missing records and unknown API paths return JSON 404",
+    "Supplied frontend assets and deep links are served",
+    "Employee changes persist through a server restart",
+    "DELETE removes only the test employee"
+  ],
+  "verifiedAt": "2026-10-23T18:48:57.472Z"
+}
